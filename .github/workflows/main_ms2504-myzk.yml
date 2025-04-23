@@ -58,6 +58,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'ms2504-myzk'
-          slot-name: 'Production'
+          slot-name: 'staging'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A78B9E63F48D4853A21566DAAB76AFC2 }}
